@@ -1,0 +1,15 @@
+body {
+  background-color: bisque;
+  position: relative;
+  margin-top: 150px;
+
+}
+
+p {
+  max-width: 400px;
+}
+
+.paragraph {
+  max-width: 400px;
+  margin: auto;
+}
