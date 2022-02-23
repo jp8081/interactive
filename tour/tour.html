@@ -4,25 +4,50 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jared's class website</title>
+    <link rel="stylesheet" href="styles.css"/>
     <link rel="icon" type="image/png" href="images/coffee-mug.png"/>
   </head>
   <body style="font-family: monospace;background-color: beige;">
-    <h1 id="top">my living room</h1>
-    <div class="imgcontainer">
-        <img src="https://i.imgur.com/HOiPtM4.png" width="523" height="424.5"> 
+
+    <h1 class="headline">my living room</h1>
+
+
+    <div class="landing">
+      <div class="imgcontainer">
+        <div class="null1" id="null1"></div>
+        <div class="null2"></div>
+        <div class="null3"></div>
+        <div class="null4"></div>
+        <div class="null5"></div>
+        <div class="null6"></div>
+        <div class="null7"></div>
+      </div>
     </div>
-    <ol>
-        <li>Our couch - Has a permanent red protective cover on because the dogs love to use it as home base when chasing each other.</li>
-        <li>Fireplace - never been used in the 16 years we have lived here.</li>
-        <li>Ottoman - My dad's go-to place to watch camping videos and eat crackers. Sometimes tennis balls roll under the foot rest and our dogs try to stick their heads underneath to grab them.</li>
-        <li>Fold up fence - We put this across the living room entrance so the dogs don't escape when we have guests over. Josie learned that she can simply jump over it but Katie still hasn't realized.</li>
-        <li>Window looking out to the driveway - when you pull in, you'll always see a dog looking back at you from that window.</li>
-        <li>Rug - Firmly believe that a living room is not a living room without this type of rug.</li>
-        <li>TV stand - Has all of our old home videos and VHS movies.</li>
 
-    </ol>
 
+
+    <div class="box" id="tag1">
+        <div class="objectimage"></div>
+        <p>Our couch - Has a permanent red protective cover on because the dogs love to use it as home base when chasing each other.</p>
+    </div>
+
+    <div class="nextbutton">
     <a href="tour2.html">next room</a>
+    </div>
 
 </body>
+
+
+<script>
+  document.getElementById("null1").onmouseover = function() {showImage()};
+  document.getElementById("null1").onmouseout = function() {hideImage()};
+
+  function showImage() {
+    document.getElementById("tag1").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage() {
+    document.getElementById("tag1").setAttribute("style", "visibility: hidden");
+  }
+</script>
 </html>
