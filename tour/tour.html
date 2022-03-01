@@ -15,30 +15,69 @@
     <div class="landing">
       <div class="imgcontainer">
         <div class="null1" id="null1"></div>
-        <div class="null2"></div>
-        <div class="null3"></div>
-        <div class="null4"></div>
-        <div class="null5"></div>
-        <div class="null6"></div>
-        <div class="null7"></div>
+        <div class="null2" id="null2"></div>
+        <div class="null3" id="null3"></div>
+        <div class="null4" id="null4"></div>
+        <div class="null5" id="null5"></div>
+        <div class="null6" id="null6"></div>
+        <div class="null7" id="null7"></div>
       </div>
     </div>
 
 
-
+<!-- //////// -->
     <div class="box" id="tag1">
-        <div class="objectimage"></div>
-        <p>Our couch - Has a permanent red protective cover on because the dogs love to use it as home base when chasing each other.</p>
+        <div class="objectimage">
+        </div>
+        <p>Our couch - Has a permanent red protective cover on because the dogs love to use it as home base when chasing each other. Featuring my dad passed out probably dreaming about moving off-grid and building a cabin.</p>
     </div>
+<!-- //////// -->
+    <div class="box" id="tag2">
+      <div class="objectimage2">
+      </div>
+      <p>Our fireplace. This hasn't been used... ever? There are chimney swifts living in the chimney now, so we'll never use it.</p>
+  </div>
+<!-- //////// -->
+<div class="box" id="tag3">
+  <div class="objectimage3">
+  </div>
+  <p>The ottoman - Catch my dad sleeping here practically any hour of the day. Has a permanently indented cushion. It's a rare occurance actually that he's on the couch today.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag4">
+  <div class="objectimage4">
+  </div>
+  <p>The dog fence we use when guests are over. Josie figured out how to jump over it but Katie is still clueless.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag5">
+  <div class="objectimage5">
+  </div>
+  <p>The dog window - has a perfect view of our driveway so whenever you come home you can always see a dog's face looking at you from this window.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag6">
+  <div class="objectimage6">
+  </div>
+  <p>Our living room rug. This thing will probably outlive me. I can't imagine a living room not having a rug that looks like this.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag7">
+  <div class="objectimage7">
+  </div>
+  <p>The TV - currently obstructed by a workout bench which I used during Covid times. Somehow no one has moved it yet.</p>
+</div>
+<!-- ////////// -->
 
-    <div class="nextbutton">
+
+  <div class="flexhorizontal">
     <a href="tour2.html">next room</a>
     </div>
-
 </body>
 
 
 <script>
+  // TAG 1
   document.getElementById("null1").onmouseover = function() {showImage()};
   document.getElementById("null1").onmouseout = function() {hideImage()};
 
@@ -48,6 +87,80 @@
 
   function hideImage() {
     document.getElementById("tag1").setAttribute("style", "visibility: hidden");
+
+
+// TAG 2
+document.getElementById("null2").onmouseover = function() {showImage2()};
+  document.getElementById("null2").onmouseout = function() {hideImage2()};
+
+  function showImage2() {
+    document.getElementById("tag2").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage2() {
+    document.getElementById("tag2").setAttribute("style", "visibility: hidden");
+  }
+
+// TAG 3
+document.getElementById("null3").onmouseover = function() {showImage3()};
+  document.getElementById("null3").onmouseout = function() {hideImage3()};
+
+  function showImage3() {
+    document.getElementById("tag3").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage3() {
+    document.getElementById("tag3").setAttribute("style", "visibility: hidden");
+  }
+// TAG 4
+document.getElementById("null4").onmouseover = function() {showImage4()};
+  document.getElementById("null4").onmouseout = function() {hideImage4()};
+
+  function showImage4() {
+    document.getElementById("tag4").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage4() {
+    document.getElementById("tag4").setAttribute("style", "visibility: hidden");
+  }
+
+// TAG 5
+document.getElementById("null5").onmouseover = function() {showImage5()};
+  document.getElementById("null5").onmouseout = function() {hideImage5()};
+
+  function showImage5() {
+    document.getElementById("tag5").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage5() {
+    document.getElementById("tag5").setAttribute("style", "visibility: hidden");
+  }
+
+  // TAG 6
+document.getElementById("null6").onmouseover = function() {showImage6()};
+  document.getElementById("null6").onmouseout = function() {hideImage6()};
+
+  function showImage6() {
+    document.getElementById("tag6").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage6() {
+    document.getElementById("tag6").setAttribute("style", "visibility: hidden");
+  }
+
+  // TAG 7
+  document.getElementById("null7").onmouseover = function() {showImage7()};
+  document.getElementById("null7").onmouseout = function() {hideImage7()};
+
+  function showImage7() {
+    document.getElementById("tag7").setAttribute("style", "visibility: visible");
+  }
+
+  function hideImage7() {
+    document.getElementById("tag7").setAttribute("style", "visibility: hidden");
+  }  
+
+
   }
 </script>
 </html>

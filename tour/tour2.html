@@ -5,20 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Jared's class website</title>
     <link rel="icon" type="image/png" href="images/coffee-mug.png"/>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
-  <body style="font-family: monospace;background-color: beige;">
 
-    <h1> my dining room</h1>
-    <img src="https://i.imgur.com/jdBWuEe.png" width="523">
-    <ol>
-        <li>Hanging light - Hit my head on this way too many times.</li>
-        <li>Dining room table - This is where we set up the menorahs to celebrate Hanukkah. A lot of childhood memories here.</li>
-        <li>Broken radio - Hasn't been used in at least 10 years, not sure why we still keep it there</li>
-        <li>Bookcase - Has family photos sitting on top, the only time I can see what my great grandparents looked like.</li>
-        <li>Weird storage thing I don't know the name of - We have a lot of random things in here like a chess board and playing cards.</li>
-        <li>Shelves that hold a lot of antique plates and other things from my great grandparents.</li>
-    </ol>
+<body style="font-family: monospace;background-color: beige;">
 
-    <a href="tour.html">previous room</a>
+  <h1 class="headline">my dining room</h1>
+
+
+  <div class="landing">
+    <div class="imgcontainer2">
+      <div class="null1-2" id="null1-2"></div>
+      <div class="null2-2" id="null2-2"></div>
+      <div class="null3-2" id="null3-2"></div>
+      <div class="null4-2" id="null4-2"></div>
+      <div class="null5-2" id="null5-2"></div>
+      <div class="null6-2" id="null6-2"></div>
+    </div>
+  </div>
+
+
+<!-- //////// -->
+  <div class="box" id="tag1-2">
+      <div class="objectimage1-2">
+      </div>
+      <p>Hanging light - Hit my head on this way too many times.</p>
+  </div>
+<!-- //////// -->
+  <div class="box" id="tag2-2">
+    <div class="objectimage2-2">
+    </div>
+    <p>Dining room table - This is where we set up the menorahs to celebrate Hanukkah. A lot of childhood memories here.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag3-2">
+<div class="objectimage3-2">
+</div>
+<p>Broken radio - Hasn't been used in at least 10 years, not sure why we still keep it there // Edit: My mom took these photos for me and apparently the radio has now been moved!</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag4-2">
+<div class="objectimage4-2">
+</div>
+<p>Bookcase - Has family photos sitting on top, the only time I can see what my great grandparents looked like.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag5-2">
+<div class="objectimage5-2">
+</div>
+<p>Weird storage thing I don't know the name of - We have a lot of random things in here like a chess board and playing cards.</p>
+</div>
+<!-- //////// -->
+<div class="box" id="tag6-2">
+<div class="objectimage6-2">
+</div>
+<p>Shelves that hold a lot of antique plates and other things from my great grandparents.</p>
+</div>
+<!-- ////////// -->
+<div class="flexhorizontal">
+<div class="padding-right"><a href="tour.html">previous room</a></div>
+<a href="tour3.html">next room</a>
+</div>
 </body>
+
+
+<script>
+// TAG 1
+document.getElementById("null1-2").onmouseover = function() {showImage1_2()};
+document.getElementById("null1-2").onmouseout = function() {hideImage1_2()};
+
+function showImage1_2() {
+  document.getElementById("tag1-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage1_2() {
+  document.getElementById("tag1-2").setAttribute("style", "visibility: hidden");
+
+
+// TAG 2
+document.getElementById("null2-2").onmouseover = function() {showImage2_2()};
+document.getElementById("null2-2").onmouseout = function() {hideImage2_2()};
+
+function showImage2_2() {
+  document.getElementById("tag2-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage2_2() {
+  document.getElementById("tag2-2").setAttribute("style", "visibility: hidden");
+}
+
+// TAG 3
+document.getElementById("null3-2").onmouseover = function() {showImage3_2()};
+document.getElementById("null3-2").onmouseout = function() {hideImage3_2()};
+
+function showImage3_2() {
+  document.getElementById("tag3-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage3_2() {
+  document.getElementById("tag3-2").setAttribute("style", "visibility: hidden");
+}
+// TAG 4
+document.getElementById("null4-2").onmouseover = function() {showImage4_2()};
+document.getElementById("null4-2").onmouseout = function() {hideImage4_2()};
+
+function showImage4_2() {
+  document.getElementById("tag4-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage4_2() {
+  document.getElementById("tag4-2").setAttribute("style", "visibility: hidden");
+}
+
+// TAG 5
+document.getElementById("null5-2").onmouseover = function() {showImage5_2()};
+document.getElementById("null5-2").onmouseout = function() {hideImage5_2()};
+
+function showImage5_2() {
+  document.getElementById("tag5-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage5_2() {
+  document.getElementById("tag5-2").setAttribute("style", "visibility: hidden");
+}
+
+// TAG 6
+document.getElementById("null6-2").onmouseover = function() {showImage6_2()};
+document.getElementById("null6-2").onmouseout = function() {hideImage6_2()};
+
+function showImage6_2() {
+  document.getElementById("tag6-2").setAttribute("style", "visibility: visible");
+}
+
+function hideImage6_2() {
+  document.getElementById("tag6-2").setAttribute("style", "visibility: hidden");
+}
+
+
+}
+</script>
 </html>
