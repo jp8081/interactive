@@ -4,6 +4,11 @@ body {
   margin-top: 150px;
 }
 
+.infopara {
+  max-width: 300px;
+  margin: auto;
+}
+
 div {
   background-repeat: no-repeat;
 }
